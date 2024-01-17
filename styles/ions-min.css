@@ -1557,12 +1557,14 @@
 }
 .ion-ios-arrow-back:before {
 	content: "\f3cf";
+	content: "<";
 }
 .ion-ios-arrow-down:before {
 	content: "\f3d0";
 }
 .ion-ios-arrow-forward:before {
 	content: "\f3d1";
+	content: ">";
 }
 .ion-ios-arrow-left:before {
 	content: "\f3d2";
