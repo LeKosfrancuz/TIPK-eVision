@@ -1,0 +1,256 @@
+.tiva-social ul li {
+    padding: 0 8px;
+    display: inline-block;
+}
+.tiva-social ul li:first-child {
+    padding: 0 8px 0 0;
+}
+.tiva-social ul li a span {
+    display: none;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+html[xmlns] .clearfix {
+	display: block;  
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.wrap {
+	height: auto !important;
+	visibility: visible !important;
+	border: 0 none;
+    clear: both;
+    float: none;
+    font-size: 1px;
+    line-height: 1px;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none outside none;
+}
+
+/* Megamenu */
+.tiva-mega-menu ul.megamenu {
+	margin: 10px; 
+}
+.tiva-mega-menu .js-megamenu a {
+	color: #ccc;
+}
+.tiva-mega-menu .js-megamenu a.over, .tiva-mega-menu .js-megamenu a.active { 
+	color: #fff; 
+}
+.tiva-mega-menu .js-megamenu li.mega .childcontent,
+.tiva-mega-menu .js-megamenu li.haschild-over li.mega .childcontent,
+.tiva-mega-menu .js-megamenu li.mega li.haschild-over li.mega .childcontent ,
+.tiva-mega-menu .js-megamenu li.mega li.mega li.haschild-over li.mega .childcontent, 
+.tiva-mega-menu .js-megamenu li.mega li.mega li.mega li.haschild-over li.mega .childcontent, 
+.tiva-mega-menu .js-megamenu li.mega li.mega li.mega li.mega li.haschild-over li.mega .childcontent { 
+	left: -999em;
+}
+.tiva-mega-menu .js-megamenu li.haschild-over .childcontent,
+.tiva-mega-menu .js-megamenu li.mega li.haschild-over .childcontent,
+.tiva-mega-menu .js-megamenu li.mega li.mega li.haschild-over .childcontent,
+.tiva-mega-menu .js-megamenu li.mega li.mega li.mega li.haschild-over .childcontent,
+.tiva-mega-menu .js-megamenu li.mega li.mega li.mega li.mega li.haschild-over .childcontent,
+.tiva-mega-menu .js-megamenu li.mega li.mega li.mega li.mega li.mega li.haschild-over .childcontent { 
+	left: auto;
+}
+
+/* Columns */
+.tiva-mega-menu .megacol { 
+	float: left; 
+	border-top: 1px solid #001A26;
+}
+
+/* Level 0 */
+.tiva-mega-menu ul.level0 {
+    float:left;
+    margin:0;
+    padding:0;
+} 
+.tiva-mega-menu ul.level0 li.mega {
+	background: url(../images/grad1-mask.png) repeat-x top #014E72;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.tiva-mega-menu ul.level0 li.mega a.mega {
+    display: block;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+.tiva-mega-menu ul.level0 li.mega .has-image {
+	padding-left: 25px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: left top;
+	cursor: pointer;
+}
+.tiva-mega-menu span.menu-image{
+	background-position: left 1px;
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+	padding-left: 21px;
+}
+.tiva-mega-menu ul.level0 li.mega span.menu-title { 
+	display: block;
+}
+.tiva-mega-menu ul.level0 li.mega span.menu-desc {
+	display: block;
+	font-weight: normal;
+	font-size: 92%;
+	color: #999;
+}
+.tiva-mega-menu ul.level0 li.mega a img {
+	float: left;
+	padding-right: 5px;
+}
+.tiva-mega-menu ul.level0 li.over, 
+.tiva-mega-menu ul.level0 li.haschild-over { 
+    background: url(../images/grad1-mask.png) repeat-x top #006699;
+} 
+.tiva-mega-menu ul.level0 li.haschild a.mega span.menu-title,
+.tiva-mega-menu ul.level0 li.haschild-over a.mega span.menu-title {
+	background: url(../images/arrow3.png) no-repeat right center;
+	padding-right: 14px;
+}
+.tiva-mega-menu ul.level0 li.haschild a.mega span.menu-desc,
+.tiva-mega-menu ul.level0 li.haschild-over a.mega span.menu-desc {
+	padding-left: 12px;
+}
+.tiva-mega-menu ul.level0 li.active { 
+    background: url(../images/grad1-mask.png) repeat-x top #006699;
+} 
+.tiva-mega-menu ul.level0 li #current.active {
+	background: none;
+}
+
+/* Level 1 */
+.tiva-mega-menu ul.level1 {
+	padding: 0;
+}
+.tiva-mega-menu ul.level1 li.mega { 
+	float: none; 
+}
+.tiva-mega-menu ul.level1 .childcontent { 
+	margin: -2em 0 0 160px; 
+}
+.tiva-mega-menu ul.level1 li.mega { 
+	border-top: 1px dotted #003652; 
+	background: none; 
+}
+.tiva-mega-menu ul.level1 li.first { 
+	border-top: 0; 
+}
+.tiva-mega-menu ul.level1 li.mega a.mega {
+	background: none;
+	border: 0;
+	font-weight: normal;
+	padding: 8px 5px;
+}
+.tiva-mega-menu ul.level1 li.mega a.mega span.menu-title { 
+	background: none; 
+	padding: 0; 
+}
+.tiva-mega-menu ul.level1 li.haschild,
+.tiva-mega-menu ul.level1 li.haschild-over {
+	background-image: url(../images/arrow.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 95% center !important;
+	padding: 0 !important;
+}
+.tiva-mega-menu ul.level1 li.over, .tiva-mega-menu ul.level1 li.haschild-over { 
+	background-color: #00527C; 
+}
+.tiva-mega-menu ul.level1 li.group { 
+	background: none; 
+}
+
+/* Child Content */
+.tiva-mega-menu .childcontent { 
+    z-index: 999;
+	display: block; 
+	height: auto; 
+	position: absolute; 
+} 
+.tiva-mega-menu .childcontent-inner {
+	background: #002A40;
+}
+.tiva-mega-menu .childcontent .js-moduletable {
+	border-bottom: 0;
+	line-height: 1.5;
+	margin: 10px 0;
+	padding: 0;
+}
+.tiva-mega-menu .childcontent-inner a {
+	color: #fff;
+	text-decoration: none;
+	width: auto;
+}
+.tiva-mega-menu .childcontent-inner .group ul li.active{
+	background-color: #00527C;
+}
+.tiva-mega-menu .childcontent .group h3 {
+	background: none;
+	color: #fff;
+	border-bottom: 1px dotted #006699;
+	padding: 0 5px 8px;
+	text-transform: none;
+}
+.tiva-mega-menu .childcontent .group .moduletable {
+	background: none;
+	padding-top: 12px;
+}
+.tiva-mega-menu .childcontent .js-moduletable .js-box-ct {
+	padding: 0 5px;
+}
+.tiva-mega-menu .childcontent .js-moduletable a {
+	text-decoration: none;
+	border-bottom: 1px dotted #ccc;
+}
+.tiva-mega-menu .childcontent .js-moduletable a:hover,
+.tiva-mega-menu .childcontent .js-moduletable a:focus,
+.tiva-mega-menu .childcontent .js-moduletable a:active {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+}
+.tiva-mega-menu .childcontent .js-moduletable ul:first-child {
+	margin-top: 0 !important;
+}
+.tiva-mega-menu .childcontent .js-moduletable li {
+	margin-bottom: 5px;
+}
+
+/* Group */
+.tiva-mega-menu .group-title {
+	border-bottom: 1px solid #006699;
+	overflow: hidden;
+}
+.tiva-mega-menu .group-title .menu-title {
+	color: #fff;
+	font-weight: bold;
+	font-size: 115%;
+}
+.tiva-mega-menu .group-title .menu-desc {
+	color: #999;
+	padding-left: 0 !important;
+}
+.tiva-mega-menu .group-content .js-moduletable,
+.tiva-mega-menu .group-content ul.megamenu  {
+	margin: 10px;
+	padding: 0;
+}
