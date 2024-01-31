@@ -2967,3 +2967,8 @@
 .ion-xbox:before {
 	content: "\f30c";
 }
+
+.icon {
+	width: 25px;
+	padding-right: 4px;
+}
